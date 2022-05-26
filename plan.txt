@@ -1,0 +1,8 @@
+npm init to run node DONE
+install dotenv module DONE
+ -- decide where/how we import dotenv - IMPORT INTO JS FILE DONE
+create a javascript file DONE
+create a dotenv file DONE
+store some super cool data DONE
+[substitute out from our js file any sensitive data - use our dotenv values instead
+check if dotenv is working]
