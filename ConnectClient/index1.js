@@ -23,7 +23,7 @@ const client = new pg.Client({
 
 await client.connect();
 
-const results = await client.query('SELECT NOW()');
+const results = await client.query('CREATE TABLE geniuses (name TEXT, genius_id TEXT)()');
 
 await client.end();
 
